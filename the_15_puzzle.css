@@ -10,16 +10,16 @@ html {
 }
 #Title h1 {
     color: red;
-    font-size: 30px;
+    font-size: 40px;
 
 }
 
 #instruction {
     color: #eef3ee;
-    font-size: 15px;
+    font-size: 25px;
 }
 #instruction input, #instruction button {
-    font-size: 15px;
+    font-size: 25px;
 
     
 }
