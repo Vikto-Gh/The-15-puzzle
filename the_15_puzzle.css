@@ -3,10 +3,7 @@ html {
     height: 100%;
     display: grid;
     background: url("https://cdn141.picsart.com/320929378344201.jpg?type=webp&to=min&r=640") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+   background-size: cover;
 }
 #Title h1 {
     color: red;
@@ -22,7 +19,4 @@ html {
     font-size: 15px;
 
     
-}
-#display {
-    color: grey;
 }
