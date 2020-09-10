@@ -17,6 +17,8 @@ html {
 }
 #instruction input, #instruction button {
     font-size: 15px;
+}
 
-    
+#display {
+    background-color: rgba(0,10,10,0.5);
 }
