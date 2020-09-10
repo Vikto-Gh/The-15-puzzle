@@ -13,7 +13,7 @@ class Block {
         if (this.value) {
             let padding = 5;
             ctx.strokeStyle = "#e80a0a";
-            ctx.font = (this.w / 4).toString() + "px Georgia";
+            ctx.font = (this.w / 1.5).toString() + "px Georgia";
             ctx.textAlign = "center";
             ctx.textBaseline = "middle";
             ctx.fillStyle = 'rgba(50, 54,58,0.6)';
