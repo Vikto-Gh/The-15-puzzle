@@ -12,14 +12,14 @@ class Block {
     draw() {
         if (this.value) {
             let padding = 5;
-            ctx.strokeStyle = "#000";
+            ctx.strokeStyle = "#e80a0a";
             ctx.font = (this.w / 4).toString() + "px Georgia";
             ctx.textAlign = "center";
             ctx.textBaseline = "middle";
-            ctx.fillStyle = "#474643";
+            ctx.fillStyle = 'rgba(50, 54,58,0.6)';
             ctx.fillRect(this.x + padding, this.y + padding, this.w - padding, this.h - padding);
             ctx.strokeRect(this.x + padding, this.y + padding, this.w - padding, this.h - padding);
-            ctx.fillStyle = "#000";
+            ctx.fillStyle = "#e80a0a";
             ctx.fillText(this.value.toString(), this.x + this.w / 2, this.y + this.h / 2, width * 0.75);
         }
     }
