@@ -16,10 +16,10 @@ html {
 
 #instruction {
     color: #eef3ee;
-    font-size: 25px;
+    font-size: 20px;
 }
 #instruction input, #instruction button {
-    font-size: 25px;
+    font-size: 15px;
 
     
 }
