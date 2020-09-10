@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>15 Puzzle Game</title>
+    <link href="Second.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+<div id="board" >
+
+    <div   id="Title" >
+        <h1  style="position: fixed; left: 45% "> 15 Puzzle </h1>
+    </div>
+            <div id="instruction" style="position: fixed; left: 40%; top: 150px ">
+                <p>
+                    Try getting the blocks into ascending order: left to right, top to bottom.
+                </p>
+                <p>
+                    Click any block next to the space to swap them.
+                </p>
+                    Size: <input id="size" type="number" min="2" max="5" value="4">
+                <button id="reset">Reset</button>
+            </div>
+<canvas id="display"  width="1000" height="1000" style="position: relative;left: 38%; top:350px "></canvas>
+<script src="Second.js"></script>
+</div>
+</body>
+</html>
